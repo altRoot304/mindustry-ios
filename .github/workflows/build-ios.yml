@@ -22,7 +22,7 @@ jobs:
   build:
     # macos-15: Xcode 16.x, proven RoboVM AOT compatibility (same stack as
     # Card-Forge/forge's production iOS workflow, verified through 2026).
-    runs-on: macos-15
+    runs-on: macos-15-intel
     timeout-minutes: 300
     steps:
       - name: Checkout Mindustry (this repository)
